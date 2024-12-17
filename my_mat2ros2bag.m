@@ -1,3 +1,4 @@
+load('matlab.mat');
 bagWriter = ros2bagwriter("bag_files4/my_bag_file4");
 
 for i=1:4501
